@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Add</title>
+</head>
+<body>
+<h1>Add Employee</h1>
+<form name="employee" action="/addEmployee" method="post">
+    <input placeholder="first name" type="text" name="firstName"/>
+    <input placeholder="last name" title="last_name" type="text" name="lastName"/>
+    <input placeholder="department id" title="department_id" type="text" name="departmentId"/>
+    <input placeholder="job title" title="job_title" type="text" name="jobTitle"/>
+    <select  name="gender" >
+        <option >MALE</option>
+        <option >FEMALE</option>
+    </select>
+    <input placeholder="date of birthday" title="date_of_birth" type="text" name="dateOfBirth"/>
+    <br>
+    <br>
+    <br>
+    <button type="submit" value="OK">Save employee</button>
+</form>
+<a href="/main">Back</a>
+
+</body>
+</html>
+
+
